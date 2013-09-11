@@ -1,0 +1,226 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ html {
+	height: 100%;
+	font-size: 100%;
+	
+	background-image:url(../images/background3.jpg);
+	background-repeat: repeat;
+	background-size: 1100px 700px;
+	margin: auto;
+ }
+ 
+ .header {
+	color: red;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 590px;
+	padding-right: 70px;
+	padding-top: 230px;
+ }
+ 
+ .content {
+	color: black;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 590px;
+	padding-right: 70px;
+ }
+ 
+ .twitter p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 590px;
+	padding-right: 70px;
+ }
+ 
+ .facebook p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 590px;
+	padding-right: 70px;
+ }
+ 
+ .instagram p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 590px;
+	padding-right: 70px;
+	padding-bottom: 25px;
+ }
+
+@media only screen and (min-width: 25em) {
+	
+html {
+	height: 100%;
+	font-size: 100%;
+	
+	background-image:url(../images/background3.jpg);
+	background-repeat: repeat;
+	background-size: 1100px 700px;
+	margin: auto;
+ }	
+	
+.header {
+	color: red;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 70px;
+	padding-right: 50px;
+	padding-top: 245px;
+ }
+ 
+ .content {
+	color: black;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 70px;
+	padding-right: 50px;
+ }
+ 
+ .twitter p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 70px;
+	padding-right: 50px;
+ }
+ 
+ .facebook p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 70px;
+	padding-right: 50px;
+ }
+ 
+ .instagram p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 70px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+ }
+}
+
+@media only screen and (min-width: 50em) {
+	
+html {
+	height: 100%;
+	font-size: 100%;
+	
+	background-image:url(../images/background3.jpg);
+	background-repeat: repeat;
+	background-size: 1300px 900px;
+	margin: auto;
+ }	
+	
+.header {
+	color: red;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 540px;
+	padding-right: 50px;
+	padding-top: 245px;
+ }
+ 
+ .content {
+	color: black;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 540px;
+	padding-right: 50px;
+ }
+ 
+ .twitter p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 540px;
+	padding-right: 50px;
+ }
+ 
+ .facebook p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 540px;
+	padding-right: 50px;
+ }
+ 
+ .instagram p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 540px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+ }
+ 
+ @media only screen and (min-width: 80em) {
+	 
+html {
+	height: 100%;
+	font-size: 100%;
+	
+	background-image:url(../images/background3.jpg);
+	background-repeat: repeat;
+	background-size: 1450px 1000px;
+	margin: auto;
+ }	
+	
+.header {
+	color: red;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 875px;
+	padding-right: 150px;
+	padding-top: 300px;
+ }
+ 
+ .content {
+	color: black;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 875px;
+	padding-right: 150px;
+ }
+ 
+ .twitter p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 875px;
+	padding-right: 150px;
+ }
+ 
+ .facebook p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 875px;
+	padding-right: 150px;
+ }
+ 
+ .instagram p {
+	color: red;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	padding-left: 875px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+ }
