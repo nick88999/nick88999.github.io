@@ -13,8 +13,9 @@
 @media only screen and (min-width: 25em) {
 	
 html {
-	height: 100%;
+	height: 110%;
 	font-size: 100%;
+	padding-left: 30px;
 	
 	background-image:url(../images/background3.jpg);
 	background-repeat: no-repeat;
@@ -31,6 +32,7 @@ html {
 	margin-right: 50px;
 	margin-top: 245px;
 	margin-bottom: -15px;
+	padding-top: 4px;
  }
  
  .content {
@@ -47,24 +49,121 @@ html {
 	font-size: 12px;
 	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
 	margin-left: 70px;
-	float: left;
+	margin-top: 28px;
  }
  
  .facebook p {
 	color: red;
 	font-size: 12px;
 	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
-	margin-left: 20px;
-	float: left;
+	margin-left: 125px;
+	margin-top: -26px;
  }
  
  .instagram p {
 	color: red;
 	font-size: 12px;
 	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
-	margin-left: 20px;
-	float: left;
+	margin-left: 195px;
+	margin-top: -26px;
+	
  } 
+ 
+ .contentbackground {
+	 background-color: rgba(255,255,255,0.7);
+	 margin: auto;
+	 padding-bottom: 7px;
+ }
+ 
+ .portfolioheader {
+	color: red;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-top: 40px;
+	margin-bottom: -20px;
+	padding-top: 4px;
+ }
+ 
+ .portfoliocontent {
+	color: black;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-bottom: -10px;
+	margin-top: -30px;
+ }
+ 
+ .titleborder {
+    width: 100%;
+    height: 15px;
+	color: #990000;
+	border-top:thin;
+	border-top-color: red;
+	border-top-style:dotted;
+	max-width: 639px;
+	margin-left: 70px;
+	margin-bottom: 0;
+}
+
+.pic1 {
+	background-image:url(../images/pic1.jpg);	
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+	height: 370px;
+	width: 300px;
+	box-shadow: 1px 1px 11px #888888;
+	margin-left: 70px;
+	margin-top: 25px;
+}
+
+.portfolioheader2 {
+	color: red;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-top: 40px;
+	margin-bottom: -20px;
+	padding-top: 4px;
+ }
+ 
+ .portfoliocontent2 {
+	color: black;
+	font-size: 12px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-bottom: -10px;
+	margin-top: -30px;
+ }
+ 
+ .titleborder2 {
+    width: 100%;
+    height: 15px;
+	color: #990000;
+	border-top:thin;
+	border-top-color: red;
+	border-top-style:dotted;
+	max-width: 639px;
+	margin-left: 70px;
+	margin-bottom: 0;
+}
+
+.pic2 {
+	background-image:url(../images/pic1.jpg);	
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+	height: 370px;
+	width: 300px;
+	box-shadow: 1px 1px 11px #888888;
+	margin-left: 70px;
+	margin-top: 25px;
+}
 }
 
 @media only screen and (min-width: 50em) {
@@ -122,11 +221,6 @@ html {
 	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
 	margin-left: 20px;
 	float: left;
- }
- 
- .contentbackground {
-	 background-color: rgba(255,255,255,0.5);
-	 margin: auto;
  }
 }
  
