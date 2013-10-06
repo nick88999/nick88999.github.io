@@ -73,6 +73,23 @@ html {
 	 background-color: rgba(255,255,255,0.7);
 	 margin: auto;
 	 padding-bottom: 7px;
+	 border-radius: 10px;
+ }
+ 
+ .portfoliobackground {
+	 background-color: rgba(255,100,100,0.7);
+	 margin-left: 216px;
+	 margin-right: 230px;
+	 padding-bottom: -10px;
+	 border-radius: 5px;
+ }
+ 
+ .portfolio {
+	color: white;
+	font-size: 24px;
+	font-family: "HelveticaNeue-UltraLight" , 'Helvetica Neue UltraLight', 'Helvetica Neue';
+	margin-left: 22px;
+	text-decoration:none;
  }
  
  .portfolioheader {
